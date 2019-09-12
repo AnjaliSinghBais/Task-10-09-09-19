@@ -6,9 +6,9 @@
 	<hr>
 	<pre>
 		<a href="Subjectwise">Explore-Store</a>
-		<a href="#">Search-Book</a>
+		<a href="SearchList.jsp">Search-Book</a>
 		<a href="#">View-Cart</a>
-		<a href="#">Trace-Order</a>
+		<a href="update.jsp">update</a>
 		<a href="#">Logout</a>
 	</pre>		
 	<hr>
