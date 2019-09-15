@@ -18,7 +18,7 @@ public class LoginPage extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		
+
 		PrintWriter out = response.getWriter();
 		String name = request.getParameter("name");
 		String password = request.getParameter("password");

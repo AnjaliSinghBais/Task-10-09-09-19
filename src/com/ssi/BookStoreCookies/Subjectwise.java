@@ -38,6 +38,7 @@ public class Subjectwise extends HttpServlet {
 				out.println("</a><br>");
 			}
 			out.println("<hr>");
+			out.println("<a href=AddCart>View-Cart</a><br>");
 			out.println("<a href=userPage.jsp>USER-Page</a>");
 			out.println("</body></html>");
 

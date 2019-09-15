@@ -8,7 +8,7 @@
 		<a href="#">Remove-Product</a>
 		<a href="#">View-Orders</a>
 		<a href="#">Logout</a>
-	</pre>		
+	</pre>
 	<hr>
 </body>
 </html>

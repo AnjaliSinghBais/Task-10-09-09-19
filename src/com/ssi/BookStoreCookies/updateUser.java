@@ -17,7 +17,7 @@ public class updateUser extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) {
 		try {
 			PrintWriter out = response.getWriter();
-			
+
 			String uname = request.getParameter("uname");
 			String password = request.getParameter("password");
 			int mobile = Integer.parseInt(request.getParameter("phone"));
@@ -33,17 +33,17 @@ public class updateUser extends HttpServlet {
 						user_Name = c.getValue();
 					}
 				}
-			
+
 			String sql = "update users set  uname=?,password=?,mobile=?,email=? where uname=?";
 			PreparedStatement ps = con.prepareStatement(sql);
-			
+
 			ps.setString(1, uname);
 			ps.setString(2, password);
 			ps.setInt(3, mobile);
 			ps.setString(4, email);
 			ps.setString(5, user_Name);
 			int x = ps.executeUpdate();
-			if (x>0) {
+			if (x > 0) {
 				out.println("<html>");
 				out.println("<body>");
 				out.println("<h2>......RECORD UPDATED....<h2>");
